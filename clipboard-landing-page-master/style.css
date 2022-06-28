@@ -1,0 +1,308 @@
+* _{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+
+/* header start */
+
+
+.header-image {
+    width: 1341px;
+}
+
+.heading {
+    position: relative;
+    bottom: 230px;
+
+}
+
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header-text {
+    font-size: 14px;
+    color: grey;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.ios-button {
+    background-color: rgb(15, 189, 145);
+   padding: 10px 20px;
+   margin: 10px;
+   border-radius: 30px;
+   color: white;
+   text-decoration: none;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.mac-button {
+    background-color: rgb(114, 84, 221);
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* section start */
+.snippet-section {
+    margin-top: -120px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.snippet-text {
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+
+.snippet-activity {
+    position: relative;
+    right: 200px;
+}
+
+.monitor-image {
+    width: 670px;
+    height: 520px;
+    position: relative;
+    right: 120px;
+}
+
+.snippet-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 13px;
+    color: grey;
+}
+
+
+.access-text {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+}
+
+.device {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: 250px;
+    margin-top: 80px;
+}
+
+.access-section {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.supercharge-text {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+}
+
+.workflow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    margin-top: 70px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 30x;
+    height: 30px;
+}
+
+.powered-by {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1130px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    right: -85.5px;
+}
+
+.powered-icons {
+    width: 118px;
+    height: 29px;
+}
+
+.clipboard-text {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+}
+
+.clipboard-section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+/* footer section */
+.footer-section {
+    background-color: rgb(218, 223, 226);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.link-words {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    font-size: 14px;
+    color: grey;
+}
+
+
+
+
+
+
+/* Extra small devices(phones, 600px and down) */
+@media(max-width: 1200px) {
+
+    .heading {
+   position: relative;
+   right: 185px;
+}
+
+.snippet-section{
+    position: relative;
+    right: 185px;
+}
+
+.monitor-image{
+    width: 470px;
+    height: 330px;
+    position: relative;
+    left: 100px;
+}
+
+.snippet-activity {
+    position: relative;
+    right: 150px;
+}
+
+.snippet-info {
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.snippet-activity {
+    posiition: relative;
+   right: 70px;
+}
+
+
+.access-section {
+    position: relative;
+    right: 185px;
+}
+
+.device {
+    width: 600px;
+    height: 350px;
+    margin-left: 45px;
+}
+
+
+.super-section {
+    position:relative;
+    right: 185px; 
+}
+
+.card {
+    width: 250px;
+    justify-content: space-around;
+
+}
+
+
+.workflow {
+    width: 700px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.powered-by {
+    justify-content: space-around;
+    width: 700px;
+  position: relative;  
+}
+
+.powered-icons {
+    width: 90px;
+    height: 20px;
+}
+
+.clipboard-section {
+    position: relative;
+    right: 185px;
+}
+
+.footer-section {
+    width: 1200px;
+}
+
+}
+
+
