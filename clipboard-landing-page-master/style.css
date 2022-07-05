@@ -1,194 +1,207 @@
-* _{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Bai Jamjuree', sans-serif;
-    
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
-
-/* header start */
-
 
 .header-image {
-    width: 1341px;
+    width: 100%;
 }
+
 
 .heading {
     position: relative;
-    bottom: 230px;
-
+    bottom: 200px;
 }
 
 
 .logo {
-    width: 90px;
-    height: 90px;
-    margin-bottom: 10px;
-}
-
-.header {
-    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin: 30px;
 }
 
 .header-text {
-    font-size: 14px;
-    color: grey;
-}
-
-.header-buttons {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+    width: 550px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .ios-button {
-    background-color: rgb(15, 189, 145);
-   padding: 10px 20px;
-   margin: 10px;
-   border-radius: 30px;
-   color: white;
-   text-decoration: none;
-   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(69, 207, 154);
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+     box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.281);
 }
 
 .mac-button {
-    background-color: rgb(114, 84, 221);
-    padding: 10px 20px;
-    border-radius: 30px;
-    margin: 10px;
+    background-color: rgb(130, 16, 223);
     color: white;
     text-decoration: none;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 5px;
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.281);
 }
 
- /* section start */
+.header-buttons {
+    margin-top: 40px;
+}
+
+
+
+/* Snippet Section */
+
+
 .snippet-section {
-    margin-top: -120px;
-    margin-bottom: 30px;
-}
-
-h2 {
-    text-align: center;
+    position: relative;
+    bottom: 70px;
 }
 
 .snippet-text {
-    text-align: center;
-    font-size: 14px;
-    color: grey;
-}
-
-.snippet-activity {
-    position: relative;
-    right: 200px;
-}
-
-.monitor-image {
-    width: 670px;
-    height: 520px;
-    position: relative;
-    right: 120px;
+    width: 550px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .snippet-info {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 60px;
 }
 
-p {
-    font-size: 13px;
-    color: grey;
+.monitor-image {
+    width: 650px;
+    height: 550px;
+    position: relative;
+    right: 30px;
 }
 
+.snippet-activity {
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.flex {
+    width: 300px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+/* Access Section */
+
+.access-section {
+    position: relative;
+    top: 100px;
+}
 
 .access-text {
-    font-size: 14px;
-    color: grey;
-    text-align: center;
+    width: 550px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
 
 .device {
     width: 800px;
     height: 500px;
+    margin-top: 40px;
+}
+
+/* Supercharge Section */
+
+.super-section {
     position: relative;
-    left: 250px;
-    margin-top: 80px;
+    top: 150px;
 }
 
-.access-section {
-    margin-top: 150px;
-    margin-bottom: 50px;
-}
-
-.supercharge-text {
-    font-size: 14px;
-    color: grey;
-    text-align: center;
+.suoercharge-text {
+    width: 550px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
 
 .workflow {
+    width: 950px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
-    text-align: center;
     position: relative;
-    left: 150px;
-    margin-top: 70px;
+    left: 135px;
+    margin-top: 50px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;           
+    width: 450px;
+    height: 150px;
+    line-height: 1.5; 
+    margin: 5px;
+    position: relative;
+    left: 15px;
 }
 
 .icon {
-    width: 30x;
-    height: 30px;
+    width: 25px;
+    height: 20px;
+    margin-bottom: 20px;
 }
 
+
+/* Poweredby Section */
+
 .powered-by {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 1130px;
-    margin-top: 100px;
-    margin-bottom: 100px;
     position: relative;
-    right: -85.5px;
+    top: 200px;
 }
 
 .powered-icons {
-    width: 118px;
-    height: 29px;
+    width: 100px;
+    margin: 50px;
+}
+
+
+/* Clipboard Section */
+
+.clipboard-section {
+    position: relative;
+    top: 300px;
 }
 
 .clipboard-text {
-    font-size: 14px;
-    color: grey;
-    text-align: center;
-}
-
-.clipboard-section {
-    text-align: center;
-    margin-bottom: 100px;
+    width: 550px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
-/* footer section */
+/* Footer Section */
+
 .footer-section {
-    background-color: rgb(218, 223, 226);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    top: 400px;
     height: 150px;
+    background-color: rgb(179, 179, 179);
 }
 
 .footer-logo {
@@ -197,112 +210,209 @@ p {
 }
 
 .footer-links {
-    display: flex;
-    flex-wrap: wrap;
     width: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 70px;
+}
+
+.link1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.link2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
 }
 
 .link-words {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    font-size: 14px;
-    color: grey;
+    margin: 5px;
+}
+
+.social-media {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 
+@media (max-width: 768px) {
+   
+    .container {
+        display: block;
+    }
 
-
-
-/* Extra small devices(phones, 600px and down) */
-@media(max-width: 1200px) {
 
     .heading {
-   position: relative;
-   right: 185px;
+        position: relative;
+        top: 15px;
+    }
+
+    .header-text {
+        width: 300px;
+    }
+
+    .header-buttons {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .ios-button {
+        width: 300px;
+        margin: 10px;
+        margin: auto;
+    }
+
+    .mac-button {
+        width: 300px;
+        margin: 10px;
+        margin: auto;
+    }
+
+
+    /* Snippet Section */
+
+    
+    .snippet-section {
+        position: relative;
+        top: 100px;
+    }
+    
+    
+    .snippet-text {
+        width: 300px;
+    }
+
+    .snippet-info {
+        flex-direction: column;
+    }
+
+    .monitor-image {
+        width: 350px;
+        height: 250px;
+       margin-left: 60px;
+    }
+
+    .snippet-activity {
+        position: relative;
+        right: 30px;
+        top: 20px;
+        text-align: center;
+    }
+
+    /* Access Section */
+
+    .access-section {
+        position: relative;
+        top: 200px;
+    }
+    
+    .access-text {
+        width: 300px;
+    }
+
+    .device {
+        width: 400px;
+        height: 250px;
+    }
+
+
+    /* Super Section  */
+
+    .super-section {
+        position: relative;
+        top: 250px;
+    }
+
+    .supercharge-text {
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .workflow {
+        width: 350px;
+        flex-direction: column;
+        position: relative;
+        left: 20px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+
+    /* powered */
+
+    .powered-by {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 110px;
+        top: 250px;
+    }
+
+    /* Clipboard Section */
+
+    .clipboard-text {
+        width: 300px;
+    }
+
+    /* Footer section */
+
+    .footer-section {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .footer-links {
+        position: relative;
+        left: 5px;
+        width: 100px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .link1 {
+        text-align: center;
+    }
+
+    .link2 {
+        text-align: center;
+    }
+
+    .link-words {
+        width: 100px;
+        margin: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-.snippet-section{
-    position: relative;
-    right: 185px;
-}
-
-.monitor-image{
-    width: 470px;
-    height: 330px;
-    position: relative;
-    left: 100px;
-}
-
-.snippet-activity {
-    position: relative;
-    right: 150px;
-}
-
-.snippet-info {
-    justify-content: space-between;
-    width: 1000px;
-}
-
-.snippet-activity {
-    posiition: relative;
-   right: 70px;
-}
-
-
-.access-section {
-    position: relative;
-    right: 185px;
-}
-
-.device {
-    width: 600px;
-    height: 350px;
-    margin-left: 45px;
-}
-
-
-.super-section {
-    position:relative;
-    right: 185px; 
-}
-
-.card {
-    width: 250px;
-    justify-content: space-around;
-
-}
-
-
-.workflow {
-    width: 700px;
-    margin-left: 100px;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.powered-by {
-    justify-content: space-around;
-    width: 700px;
-  position: relative;  
-}
-
-.powered-icons {
-    width: 90px;
-    height: 20px;
-}
-
-.clipboard-section {
-    position: relative;
-    right: 185px;
-}
-
-.footer-section {
-    width: 1200px;
-}
-
-}
-
-
